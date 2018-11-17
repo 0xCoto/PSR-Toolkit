@@ -1,5 +1,5 @@
 # PSR Toolkit
-An easy-to-use Pulsar Toolkit for Pulsar Astronomy
+An easy-to-use Pulsar Toolkit for Pulsar Astronomy...
 
 # Description
 PSR Toolkit is a tool that allows you to quicky calculate significant values, including Dispersion Measure (DM), Period Derivative (Pdot), Characteristic Age (τ), Minimum Mean Density (ρ), Maximum Radius (R), Minimum Mass (M), Moment of Inertia (I) and Rotational Kinetic Energy (E_rot).
