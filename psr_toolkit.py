@@ -8,8 +8,8 @@ def dm_calc():
     f_lo = float(1e-9*(input('Low frequency (f_lo) (Hz): ')))
     f_hi = float(1e-9*(input('High frequency (f_hi) (Hz): ')))
     
-    t_lo = float(0.001*(input('\nTime of arrival of low frequency (t_lo) (sec): ')))
-    t_hi = float(0.001*(input('Time of arrival of high frequency (t_hi) (sec): ')))
+    t_lo = float(1000*(input('\nTime of arrival of low frequency (t_lo) (sec): ')))
+    t_hi = float(1000*(input('Time of arrival of high frequency (t_hi) (sec): ')))
     
     if t_lo <= t_hi:
         print('\n\033[0;31;48m[*] Low frequency arrived first. Ignoring...\033[0;32;48m')
